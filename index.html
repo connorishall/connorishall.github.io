@@ -1,138 +1,604 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Connor Hall</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-    <title>portfolio</title>
-  </head>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-  <!-- Bootstrap core CSS -->
-<link href="./CSS/Main_CSS.css" rel="stylesheet">
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-
-  
-  <link href="./CSS/Main_CSS.css" rel="stylesheet">
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Connor Hall</h1>
+
+	   			<p class="intro-position">
+	   				<span>Full-Stack Developer</span>
+	   				
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+ 	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="./images/IMG_update.jpg" alt="Profile Picture">
+
+   				<p class="lead"> Hi I'm Connor, I'm a adrenaline junkie, and love to explore the great outdoors. My entire life I've always loved to talk to people, and learn from their experiences. I hope you'll give me a chance, and allow me to be apart of your great development team so I can learn, and grow with the company.   </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Connor Hall</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Freelancer, Full-Stack Developer</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>connorishalls@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>I’ve always been a great problem solver, an extrovert, and have always loved teamwork, and collaborating with all different types of people. I love being able to be creative, and work to solve problems by thinking outside of the box. I’m familiar with JavaScript, HTML, CSS, Python, but I’m always adding new skills to my repertoire, and would love to learn from others. </p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+					<strong>JavaScript</strong>
+				   </li>
+				   <li>
+				   	<strong>Pyhton</strong>
+				   </li>
+				   <li>
+				   	<strong>C#</strong>
+				   </li>
+				   <li>
+				   	<strong>MySQL</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll" >Hire Me</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">I don't have any work experience when it comes to working for a business, but I have done freelancing web design for small businesses in my area. </p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>FreeLance</h3>
+	   					<p>July, 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>FreeLance</h4>
+	   					<p>I've done freelance work for multiple companies in my area to learn what businesses what. This experience has also drastically helped me with server-side development as well.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+						<h3>The Tech Academy</h3>
+	   					<p>February, 2021 - June, 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>The Tech Academy</h4>
+	   					<p>I attended the Tech Academy Bootcamp to learn the basics of software development, and get a base to work off of. After I graduated, I've been trying to build up my skills since then.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works</h1>
+
+   			<p class="lead">Since I don't have any noteable projects yet here are some pictures of one of my road trips.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/Colorado.jpeg" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Colorado</h3>	     					    
+		     					    	 <span class="folio-types">
+											Durango 
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/Glacier.jpeg" alt="Shutterbug">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Glacier National Park</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/JennyLakeAgain.jpeg"alt="Clouds">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Grand Tetons</h3>	     					    
+		     					    	<span class="folio-types">
+											Jenny Lake
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/Sedona.jpeg" alt="Beetle">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Sedona</h3>	     					    
+		     					    	<span class="folio-types">
+											Cathedral Rock
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/StandingGlacier.jpeg" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Glacier National Park</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="./images/portfolio/SkateBoardJenny.jpeg" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Grand Tetons</h3>	     					    
+		     					    	<span class="folio-types">
+											Jenny Lake
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/Colorado.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Colorado</h4>		      
+					      <p>Durango Colorado during the summer</p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/Glacier.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Montana</h4>		      
+					      <p>Glacier National Park</p>
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/JennyLakeAgain.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Wyoming</h4>		      
+					      <p>Grand Tetons Jenny Lake</p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/Sedona.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Arizona</h4>		      
+					      <p>Sedona National Park Cathedral Rock</p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/StandingGlacier.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Montana</h4>		      
+					      <p>Glacier National Park</p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="./images/portfolio/SkateBoardJenny.jpeg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Wyoming</h4>		      
+					      <p>Grand Tetons Jenny Lake</p>
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+
+	
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+
+
+   		</div> 
+   	</div> 
+	   
+	   <div class="container">
+		<div class="center">
+			<a button class="btn info" href="mailto:connorishalls@gmail.com" style="text-decoration: none;">Get In Touch</button></a>
+		  </div>
+		</div>
+	 
+	   <!-- /contact-form -->
+	   
+	   <div class="row contact-info">
+
+
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>connorishalls@gmail.com</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone:(678)-677-5618</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+
+
   
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-<header class="mb-auto">
-  <div>
-    <h3 class="float-md-start mb-0">Connor Hall Portfolio</h3>
-    <nav class="nav nav-masthead justify-content-center float-md-end">
-      <a class="nav-link active" aria-current="page">About Me</a>
-      <a class="nav-link" href="#git-hub">Projects</a>
-      <a class="nav-link" href="#contact-me">Contact</a>
-    </nav>
-  </div>
-</header>
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
 
-<main class="px-3">
-  <h1>About Me</h1>
-  <p class="lead">Hi, I'm Connor I love solving problems, and learning something new everyday.
-    I love nature, and experiencing/learning about differnt cultures around the world.
-</main>
-<div class="screen">
-  <div class="Bol"></div>
-</div>
+      	</div> <!-- /row -->     	
+   </footer>  
 
-<hr class="rounded">
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
 
-<!-- IMAGE GALLERY -->
-<div class="row">
-  <div class="column">
-    <img src="./Images/img-1.jpeg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./Images/img-2.jpeg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./Images/im-3.jpeg" alt="" style="width:100%">
-  </div>
-</div>
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
-<hr class="rounded">
+</body>
 
-  <!-- GIT HUB -->
-  <div id="git-hub">
-  <h1>Check out my GitHub for my latest projects!</h1>
-  <a href="https://github.com/connorishall?tab=projects">Click Here!</a>
- 
-  <hr class="rounded">
-  
-  <!-- CONTACT -->
-  <div id="contact-me">
-  <div class="background">
-    <div class="container">
-      <div class="screen">
-        <div class="screen-header">
-          <div class="screen-header-left">
-            <div class="screen-header-button close"></div>
-            <div class="screen-header-button maximize"></div>
-            <div class="screen-header-button minimize"></div>
-          </div>
-          <div class="screen-header-right">
-            <div class="screen-header-ellipsis"></div>
-            <div class="screen-header-ellipsis"></div>
-            <div class="screen-header-ellipsis"></div>
-          </div>
-        </div>
-        <div class="screen-body">
-          <div class="screen-body-item left">
-            <div class="app-title">
-              <span class="contact-me">CONTACT</span>
-            </div>
-          </div>
-          <div class="screen-body-item">
-            <div class="app-form">
-              <div class="app-form-group">
-                <input class="app-form-control" placeholder="NAME">
-              </div>
-              <div class="app-form-group">
-                <input class="app-form-control" placeholder="EMAIL">
-              </div>
-              <div class="app-form-group">
-                <input class="app-form-control" placeholder="Phone Number">
-              </div>
-              <div class="app-form-group message">
-                <input class="app-form-control" placeholder="MESSAGE">
-              </div>
-              <div class="app-form-group buttons">
-                <button class="app-form-button">CANCEL</button>
-                <button class="app-form-button">SEND</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END CONATCT --> 
-  
-  
-  </div>
- </body>
 </html>
